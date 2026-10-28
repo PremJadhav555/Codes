@@ -1,0 +1,60 @@
+*{
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{
+    color:blue;
+    text-align: center;
+}
+
+.popular{
+    color:green;
+    text-decoration:underline;
+    text-align:center;
+}
+
+.card{
+    background-color: aqua;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+#id{
+    color:red;
+}
+
+div p{
+    color:grey
+}
+
+div h2{
+    color:green;
+}
+
+li{
+    color:brown;
+}
+
+#tip{
+    color:green;
+}
+
+.tip::before{
+    content:'Tips: ';
+    color:green;
+    
+}
+
+.anchor{
+    text-decoration: none;
+    color:navy;
+}
+
+#center{
+    text-align: center;
+}
